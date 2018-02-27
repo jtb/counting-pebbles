@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
+markdown: kramdown
 title: Counting Pebbles
 description: Counting devices through the ages.
