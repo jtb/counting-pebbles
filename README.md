@@ -4,6 +4,11 @@ You can use the [editor on GitHub](https://github.com/jtb/counting-pebbles/edit/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Table of Contents
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
