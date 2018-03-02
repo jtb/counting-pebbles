@@ -4,18 +4,21 @@
 permalink:           pretty
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               'Counting Pebbles'
+tagline:             'A history of ancient counting devices'
+description:         'Exploration of our relationship with numbers throughout history, and the tools we use to count them.'
+
+url:                 https://jtb.github.io/counting-pebbles
 baseurl:             '/counting-pebbles'
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Justin Brown
+  url:               https://github.com/jtb
+  email:             jbrown23+pebbles@gmail.com
 
 # Custom vars
-version:             1.0.0
+version:             0.0.1
+
+plugins: [jekyll-paginate]
