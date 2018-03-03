@@ -1,0 +1,4 @@
+/* Highlight bibliography item when coming from a link. */
+.bib:target {
+   background-color: #e3e6e8;
+}
