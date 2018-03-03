@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               'Counting Pebbles'
 tagline:             'A history of ancient counting devices'
-description:         'Exploration of our relationship with numbers throughout history, and the tools we use to count them.'
+description:         'Table of Contents'
 
 url:                 https://jtb.github.io/counting-pebbles
 baseurl:             '/counting-pebbles'

@@ -29,4 +29,6 @@ Have questions or suggestions? Feel free to [open an issue on GitHub](https://gi
 
 Thanks for reading!
 
-Here is something interesting: [[1]](../bibliography#item1)
+Here is something interesting: [[1]](/counting-pebbles/bibliography#item1)
+
+![](/counting-pebbles/assets/img/Salamis_Tablet_1899.jpg){:height="100px"}
