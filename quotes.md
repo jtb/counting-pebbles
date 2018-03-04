@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quotations
+title: Ancient Quotations
 ---
 
 This page contains a list of quotations about pebbles and counting boards, arranged roughly in chronological order. They offer glimpses into how the ancient Greeks used these counting boards in their daily lives.
