@@ -2,3 +2,11 @@
 .bib:target {
    background-color: #e3e6e8;
 }
+
+.bigHr {
+    // background-color: dimgrey !important;
+    // color: dimgrey !important;
+    // border: solid 5px dimgrey !important;
+    border: solid 2px lightgrey !important;
+    //height: 5px !important;
+}
