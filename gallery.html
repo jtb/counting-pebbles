@@ -13,7 +13,9 @@ images:
 {% for image in page.images %}
 <p>
   {{image.title}}
-  <img src="{{site.baseurl}}/assets/img/{{image.path}}" alt="{{image.title}}" />
+  <a href="{{site.baseurl}}/assets/img/{{image.path}}">
+    <img src="{{site.baseurl}}/assets/img/{{image.path}}" alt="{{image.title}}" />
+  </a>
   <i>{{image.caption}}</i>
 </p>
 {% endfor %}
