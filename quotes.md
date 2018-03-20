@@ -1,11 +1,43 @@
 ---
 layout: page
 title: Ancient Quotations
+
+quotes:
+  - source: Lysias 445 BC – c. 380 BC
+    info: something something something
+    english: |
+      the office furniture of a banker consisted of
+      a table and an abacus.
+    greek: hi!
+
+author: dave
+
 ---
 
 This page contains a list of quotations about pebbles and counting boards, arranged roughly in chronological order. They offer glimpses into how the ancient Greeks used these counting boards in their daily lives.
 
 <hr class="bigHr">
+
+{% for quote in page.quotes %}
+{{quote.source}}
+
+{{quote.info}}
+> {{quote.english}}
+{% if quote.greek %}
+> {{quote.greek}}
+{% endif %}
+
+<hr class="bigHr">
+{% endfor %}
+
+for quote in page.quotes
+include bib.html quote=quote 
+endfor
+
+{% assign author = site.data.bib["dave"] %}
+{% include bib.html author=author %}
+
+
 
 Herodotus was a Greek historian who lived in the fifth century BC (c. 484 - c. 425 BC). His work *The Histories* is considered the founding work of history in Western literature. Book II discusses Egypt.
 > Finally in the writing of characters and reckoning with pebbles, while the Hellenes carry the hand from the left to the right, the Egyptians do this from the right to the left; and doing so they say that they do it themselves rightwise and the Hellenes leftwise.
