@@ -1,6 +1,7 @@
-- dave:
-    name: David Smith
-    twitter: DavidSilvaSmith
-- justin:
-    name: Justin Brown
-    twitter: tweet
+dave:
+  name: David Smith
+  twitter: DavidSilvaSmith
+
+justin:
+  name: Justin Brown
+  twitter: tweet

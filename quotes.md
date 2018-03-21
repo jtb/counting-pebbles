@@ -10,8 +10,6 @@ quotes:
       a table and an abacus.
     greek: hi!
 
-author: dave
-
 ---
 
 This page contains a list of quotations about pebbles and counting boards, arranged roughly in chronological order. They offer glimpses into how the ancient Greeks used these counting boards in their daily lives.
