@@ -34,8 +34,7 @@ for quote in page.quotes
 include bib.html quote=quote 
 endfor
 
-{% assign author = site.data.bib["dave"] %}
-{% include bib.html author=author %}
+{% include bib.html author=site.data.bib.justin %}
 
 
 
