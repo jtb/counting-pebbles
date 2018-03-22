@@ -1,13 +1,5 @@
-dave:
-  name: David Smith
-  twitter: DavidSilvaSmith
-
-justin:
-  name: Justin Brown
-  twitter: tweet
-
 books:
-  menninger:
+  - id: menninger
     short: Menninger
     authors:
       - first: Karl
@@ -23,7 +15,7 @@ books:
           English translation of the revised German edition of
           Zahlwort und Ziffer: Eine Kulurgeschicte der Zahlen.
 
-  scharlig:
+  - id: scharlig
     short: Schärlig
     authors:
       - first: Alain
@@ -38,7 +30,7 @@ books:
           Found at the Berkeley Library on March 17, 2017.
           Main (Gardner) Stacks QA75 .S33 2001.
 
-  cuomo:
+  - id: cuomo
     short: Cuomo
     authors:
       - first: Serafina
@@ -54,7 +46,7 @@ books:
           Main (Gardner) Stacks QA22 .C85 2001.
 
 journals:
-  teriele:
+  - id: teriele
     short: Te Riele
     authors:
       - first: GJMJ

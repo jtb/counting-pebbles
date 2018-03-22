@@ -3,21 +3,28 @@ layout: page
 title: Bibliography
 ---
 
+## Books
+
 <ol>
-<li class="bib" id="item1">
-<p>Allen, T. (1974). Vanishing wildlife of North America. Washington, D.C.: National Geographic Society.</p>
+{% assign sorted_books = site.data.bib.books | sort:"short" %}
+{% for book in sorted_books %}
+<li class="bib" id="{{book.id}}">
 <p>
-Hi i'm talking about this thing blabh blahb ablabh
+{% include book.html cite=book %}
 </p>
 </li>
-
-<li class="bib" id="item2">
-<p>This is another numbered item</p>
-</li>
-
-<li id="item3">
-<p>Same as <a href="#item1">1</a></p>
-</li>
-
+{% endfor %}
 </ol>
 
+## Journals
+
+<ol>
+{% assign sorted_journals = site.data.bib.journals | sort:"short" %}
+{% for journal in sorted_journals %}
+<li class="bib" id="{{journal.id}}">
+<p>
+{% include journal.html cite=journal %}
+</p>
+</li>
+{% endfor %}
+</ol>

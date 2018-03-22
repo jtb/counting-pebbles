@@ -28,31 +28,6 @@ This page contains a list of quotations about pebbles and counting boards, arran
 <hr class="bigHr">
 {% endfor %}
 
-for quote in page.quotes
-include book.html quote=quote 
-endfor
-
-{% for book in site.data.bib.books %}
-<p>
-{% assign thebook = book[1] %}
-{% include book.html cite=thebook %}
-</p>
-{% endfor %}
-
-
-({{site.data.bib.books.menninger.short}}, p. 93)
-<p>
-{% include book.html cite=site.data.bib.books.menninger %}
-</p>
-<p>
-{% include book.html cite=site.data.bib.books.scharlig %}
-</p>
-<p>
-{% include journal.html cite=site.data.bib.journals.teriele %}
-</p>
-
-
-
 Herodotus was a Greek historian who lived in the fifth century BC (c. 484 - c. 425 BC). His work *The Histories* is considered the founding work of history in Western literature. Book II discusses Egypt.
 > Finally in the writing of characters and reckoning with pebbles, while the Hellenes carry the hand from the left to the right, the Egyptians do this from the right to the left; and doing so they say that they do it themselves rightwise and the Hellenes leftwise.
 >

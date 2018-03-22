@@ -30,5 +30,7 @@ Have questions or suggestions? Feel free to [open an issue on GitHub](https://gi
 Thanks for reading!
 
 Here is something interesting: [[1]](/counting-pebbles/bibliography#item1)
+{% assign author = site.data.bib.books | where:"id", "cuomo"  | first %}
+Here is something interesting: [{{author.short}}, p.93](/counting-pebbles/bibliography#{{author.id}})
 
 ![](/counting-pebbles/assets/img/Salamis_Tablet_1899.jpg){:height="100px"}
