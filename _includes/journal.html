@@ -1,0 +1,8 @@
+{% for author in include.cite.authors %}
+{{author.last}}, {{author.first}} 
+{% endfor %}
+({{include.cite.date.year}}). 
+{{include.cite.article}}. 
+{{include.cite.journal}}, 
+{{include.cite.volume}}({{include.cite.issue}}), 
+{{include.cite.pages}}.

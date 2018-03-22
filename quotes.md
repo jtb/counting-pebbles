@@ -29,10 +29,27 @@ This page contains a list of quotations about pebbles and counting boards, arran
 {% endfor %}
 
 for quote in page.quotes
-include bib.html quote=quote 
+include book.html quote=quote 
 endfor
 
-{% include bib.html author=site.data.bib.justin %}
+{% for book in site.data.bib.books %}
+<p>
+{% assign thebook = book[1] %}
+{% include book.html cite=thebook %}
+</p>
+{% endfor %}
+
+
+({{site.data.bib.books.menninger.short}}, p. 93)
+<p>
+{% include book.html cite=site.data.bib.books.menninger %}
+</p>
+<p>
+{% include book.html cite=site.data.bib.books.scharlig %}
+</p>
+<p>
+{% include journal.html cite=site.data.bib.journals.teriele %}
+</p>
 
 
 

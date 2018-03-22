@@ -5,3 +5,71 @@ dave:
 justin:
   name: Justin Brown
   twitter: tweet
+
+books:
+  menninger:
+    short: Menninger
+    authors:
+      - first: Karl
+        last: Menninger
+    title: "Number Words and Number Symbols: A Cultural History of Numbers"
+    place: New York
+    publisher: Dover
+    date:
+      year: 1992
+    isbn13: 978-0486270968
+    note: > 
+          Unabridged, unaltered republication of the
+          English translation of the revised German edition of
+          Zahlwort und Ziffer: Eine Kulurgeschicte der Zahlen.
+
+  scharlig:
+    short: Schärlig
+    authors:
+      - first: Alain
+        last: Schärlig
+    title: "Compter avec des cailloux : le calcul élémentaire sur l'abaque chez les anciens Grecs"
+    place: Lausanne
+    publisher: Presses polytechniques et universitaires romanes
+    date:
+      year: 2001
+    isbn13: 978-2880744533
+    note: >
+          Found at the Berkeley Library on March 17, 2017.
+          Main (Gardner) Stacks QA75 .S33 2001.
+
+  cuomo:
+    short: Cuomo
+    authors:
+      - first: Serafina
+        last: Cuomo
+    title: Ancient Mathematics
+    place: London
+    publisher: Routledge
+    date:
+      year: 2001
+    isbn13: 978-0415164955
+    note: >
+          Found at the Berkeley Library on March 17, 2017.
+          Main (Gardner) Stacks QA22 .C85 2001.
+
+journals:
+  teriele:
+    short: Te Riele
+    authors:
+      - first: GJMJ
+        last: Te Riele
+    article: Les Inscription trouvées a Goritsa
+    journal: Archaiologikon deltion
+    volume: 27
+    issue: pt. B no. 2
+    date:
+      year: 1972
+    pages: 408-411
+    issn: 0570-622X 0570-622X 23
+    doi: DF10 .A6 v.27B:2
+    note: >
+          Found at the Berkeley Library on March 17, 2017.
+          Art History/Classics Room 308E, DF10 .A6 v.27B:2.
+          Pages 408-411 with illustrations on p. 406 and plate 342.
+          http://oskicat.berkeley.edu/record=b12307478~S1

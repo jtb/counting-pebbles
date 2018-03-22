@@ -1,0 +1,9 @@
+{% for author in include.cite.authors %}
+{{author.last}}, {{author.first}}.
+{% endfor %}
+<i>{{include.cite.title}}</i>. 
+{{include.cite.place}}: 
+{{include.cite.publisher}},
+{{include.cite.date.year}}.
+<blockquote>{{include.cite.note}}</blockquote>
+
