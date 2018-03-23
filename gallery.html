@@ -3,7 +3,7 @@ layout: page
 title: Gallery
 ---
 
-{% for image in site.data.images % }
+{% for image in site.data.images %}
 <p>
   <a href="{{site.baseurl}}/assets/img/{{image.img}}">
     <img src="{{site.baseurl}}/assets/img/{{image.img}}" alt="{{image.id}}" />
