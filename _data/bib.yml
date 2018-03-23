@@ -79,6 +79,23 @@ books:
           Available at Berkeley Library in the Main (Gardner) stacks - DF261.G63 G7 1992
           Volume 10
 
+  - id: hooker
+    short: Hooker
+    authors:
+      - first: James
+        last: Hooker
+        middle: T
+    title: "Reading the past: Ancient writing from cuneiform to the alphabet"
+    place: Great Britain
+    publisher: "University of California Press / British Museum"
+    date:
+      year: 1990
+    isbn13: 978-0714180724
+    url: 
+    language: English
+    note: >
+          Photo of the Etruscan cameo.
+
 journals:
   - id: teriele
     short: Te Riele
@@ -241,5 +258,21 @@ journals:
     language: Greek
     doi:
     url: http://digi.ub.uni-heidelberg.de/diglit/aephem1925_1926/0056
+    note: >
+          PLACEHOLDER
+
+  - id: kubitschek
+    short: Kubitschek
+    authors:
+      - first: Wilhelm
+        last: Kubitschek
+    article: Die salaminische Rechentafel
+    journal: Numismatische Zeitschrift
+    volume: 31
+    date:
+      year: 1899
+    pages: 393-398
+    language: German
+    url: http://www.archive.org/stream/numismatischezei31stuoft
     note: >
           PLACEHOLDER

@@ -1,21 +1,13 @@
 ---
 layout: page
 title: Gallery
-
-images:
-  - path: Salamis_Tablet_1899.jpg
-    title: Salamis Tablet, 1899 photo
-    caption: One of the oldest examples of an ancient Greek counting board. From the Salamis Island, around 300 BC.
-
 ---
 
-
-{% for image in page.images %}
+{% for image in site.data.images % }
 <p>
-  {{image.title}}
-  <a href="{{site.baseurl}}/assets/img/{{image.path}}">
-    <img src="{{site.baseurl}}/assets/img/{{image.path}}" alt="{{image.title}}" />
+  <a href="{{site.baseurl}}/assets/img/{{image.img}}">
+    <img src="{{site.baseurl}}/assets/img/{{image.img}}" alt="{{image.id}}" />
   </a>
-  <i>{{image.caption}}</i>
+  <i>{{image.caption}}</i> [({{image.short}}, {{image.page}})](/counting-pebbles/bibliography#{{image.source}})
 </p>
 {% endfor %}
