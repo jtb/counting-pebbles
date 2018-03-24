@@ -34,3 +34,5 @@ Here is something interesting: [[1]](/counting-pebbles/bibliography#item1)
 Here is something interesting: [{{author.short}}, p.93](/counting-pebbles/bibliography#{{author.id}})
 
 ![](/counting-pebbles/assets/img/Salamis_Tablet_1899.jpg){:height="100px"}
+
+![](/counting-pebbles/assets/img/Salamis_Tablet_1899.jpg){:height="100px"}
