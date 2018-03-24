@@ -3,7 +3,7 @@ layout: page
 title: Bibliography
 ---
 
-## Books
+<h2 class="greekify">BOOKS</h2>
 
 <ol>
 {% assign sorted_books = site.data.bib.books | sort:"short" %}
@@ -16,7 +16,7 @@ title: Bibliography
 {% endfor %}
 </ol>
 
-## Journals
+<h2 class="greekify">JOURNALS</h2>
 
 <ol>
 {% assign sorted_journals = site.data.bib.journals | sort:"short" %}

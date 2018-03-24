@@ -13,10 +13,10 @@
 
 @font-face {
   font-family: "Diogenes";
-  src: url(asset_path(DIOGENES.tff));
+  src: url(/counting-pebbles/assets/fonts/DIOGENES.ttf);
 }
 
-h1, h2, h3, h4, h5, h6 {
+.greekify {
   font-family: "Diogenes", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
