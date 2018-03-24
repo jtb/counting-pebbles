@@ -12,12 +12,12 @@
 }
 
 @font-face {
-  font-family: "Diogenes";
-  src: url(/counting-pebbles/assets/fonts/DIOGENES.ttf);
+  font-family: "Olympus";
+  src: url(/counting-pebbles/assets/fonts/OLYMRG.ttf);
 }
 
 .greekify {
-  font-family: "Diogenes", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Olympus", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
