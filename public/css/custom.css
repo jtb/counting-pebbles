@@ -22,3 +22,9 @@
   color: #13131;
   letter-spacing: -.025rem;
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
