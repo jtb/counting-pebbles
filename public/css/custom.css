@@ -12,13 +12,13 @@
 }
 
 @font-face {
-  font-family: "Olympus";
-  src: url(/counting-pebbles/assets/fonts/OLYMRG.ttf);
+  font-family: "Dalek";
+  src: url(/counting-pebbles/assets/fonts/DALEK.ttf);
 }
 
 .greekify {
-  font-family: "Olympus", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Dalek", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #313131;
+  color: #13131;
   letter-spacing: -.025rem;
 }
