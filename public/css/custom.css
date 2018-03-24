@@ -10,3 +10,15 @@
     border: solid 2px lightgrey !important;
     //height: 5px !important;
 }
+
+@font-face {
+  font-family: "Diogenes";
+  src: url(asset_path(DIOGENES.tff));
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Diogenes", "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #313131;
+  letter-spacing: -.025rem;
+}
