@@ -11,3 +11,15 @@
   page: plate 24
   note: >
         Listed as "Der Rechentisch von Salamis"
+
+- id: etruscan_cameo
+  short: Etruscan Cameo
+  img: etruscan_cameo.png
+  caption: Etruscan Cameo of youth with apcar (Etruscan for abacus).
+  source: hooker
+  url: https://books.google.com/books?id=9i8L8qxSsM4C&pg=PA344&lpg=PA344
+  page: 344
+  note: >
+        A gem showing a youth reading numbers from
+        a tablet, c.450 BC (TLE 779).
+        Paris, Bibliotheque Nationale.
