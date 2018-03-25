@@ -15,7 +15,9 @@ title: Artifacts
 {% for artifact in site.data.artifacts %}
 {% assign photo = site.data.images | where:"id", artifact.photo  | first %}
     <tr>
-      <td><img src="{{site.baseurl}}/assets/img/medium/{{photo.img}}" alt="{{artifact.name}}" width="100"></td>
+      <td><a href="{{site.baseurl}}/assets/img/medium/{{photo.img}}" data-lightbox="{{artifact.id}}" data-title="{{artifact.name}}">
+            <img src="{{site.baseurl}}/assets/img/medium/{{photo.img}}" alt="{{artifact.name}}" width="100">
+      </a></td>
       <td>{{artifact.name}}</td>
       <td>{{artifact.region}}</td>
       <td>
