@@ -21,9 +21,9 @@ title: Artifacts
       <td>{{artifact.name}}</td>
       <td>{{artifact.region}}</td>
       <td>
-        <ul class="gfs">
+        <ul style="list-style: none;">
 {% for inscript in artifact.inscriptions %}
-          <li>{{inscript}}</li>
+          <li class="gfs">{{inscript}}</li>
 {% endfor %}
         </ul>
       </td>
