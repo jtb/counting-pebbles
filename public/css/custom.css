@@ -23,6 +23,18 @@
   letter-spacing: -.025rem;
 }
 
+@font-face {
+  font-family: "Greek";
+  src: url(/counting-pebbles/assests/fonts/gfs-neohellenic.regular.ttf);
+}
+
+.gfs {
+  font-family: "Greek", "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #13131;
+  letter-spacing: -.025rem;
+}
+
 .center-image
 {
     margin: 0 auto;
