@@ -1,8 +1,20 @@
-{% for author in include.cite.authors %}
-{{author.last}}, {{author.first}} 
-{% endfor %}
+{% if include.cite.authors.size == 1 %}
+{{include.cite.authors.first.last}}, {{include.cite.authors.first.first}}
+{% endif %}
+{% if include.cite.authors.size == 2 %}
+{{include.cite.authors.first.last}}, {{include.cite.authors.first.first}}, and {{include.cite.authors.last.first}}, {{include.cite.authors.last.last}}
+{% endif %}
+{% if include.cite.authors.size > 2 %}
+{{include.cite.authors.first.last}}, {{include.cite.authors.first.first}}, et al.
+{% endif %}
+
 ({{include.cite.date.year}}). 
-{{include.cite.article}}. 
-{{include.cite.journal}}, 
-{{include.cite.volume}}({{include.cite.issue}}), 
-{{include.cite.pages}}.
+"{{include.cite.article}}."
+<i>{{include.cite.journal}},</i>
+
+{% if include.cite.issue %}
+{{include.cite.volume}}({{include.cite.issue}}), {{include.cite.pages}}.
+{% else %}
+{{include.cite.volume}}, {{include.cite.pages}}.
+{% endif %}
+
