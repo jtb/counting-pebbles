@@ -22,7 +22,7 @@ title: Artifacts
       <td>{{artifact.region}}</td>
       <td>
 {% for inscript in artifact.inscriptions %}
-        <p class="gfs">{{inscript}}</p>
+        <div class="gfs">{{inscript}}</div>
 {% endfor %}
       </td>
       <td>{{artifact.details}}</td>
