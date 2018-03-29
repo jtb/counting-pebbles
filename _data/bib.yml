@@ -276,3 +276,29 @@ journals:
     url: http://www.archive.org/stream/numismatischezei31stuoft
     note: >
           PLACEHOLDER
+
+  - id: theodossiou
+    short: Theodossiou
+    authors:
+      - first: Efstratios
+        last: Theodossiou
+      - first: M
+        last: Katsiotis
+      - first: Vassilios
+        middle: N
+        last: Manimanis
+      - first: P
+        last: Mantarakis
+    article: The Large Built Water Clock of Amphiaraeion 
+    journal: Mediterranean Archaeology and Archaeometry
+    volume: 10
+    issue: 1
+    date:
+      year: 2010
+    pages: 159‐167
+    language: English
+    url: http://maajournal.com/Issues/2010/Vol10-1/Theodosiou%2010_1.pdf
+    note: >
+          Authors speculate that the tablet is a piece of a water clock.
+          This seems unlikely with issues that the authors themselves
+          point out.
