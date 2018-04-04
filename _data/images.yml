@@ -12,6 +12,43 @@
   note: >
         Listed as "Der Rechentisch von Salamis"
 
+- id: salamis2
+  short: s2
+  img: salamis.png
+  caption: Sketch of Salamis Tablet
+  note: >
+        From French Book
+
+- id: goritsaA
+  short: Goritsa A
+  img: goritsaA.jpg
+  caption: Sketch of Goritsa A
+
+- id: goritsaB
+  short: Goritsa B
+  img: goritsaB.jpg
+  caption: Sketch of Goritsa B
+
+- id: oropos_amputated
+  short: Oropos, amputated
+  img: ampute.jpg
+  caption: Sketch
+
+- id: oropos_5_11_5
+  short: Oropos, 5+11+5
+  img: oropos.jpg
+  caption: Sketch
+
+- id: oropos_5_2
+  short: Oropos, 5+2
+  img: oropos2.jpg
+  caption: Sketch
+
+- id: oropos_6
+  short: Oropos, 6
+  img: oropos3.jpg
+  caption: Sketch
+
 - id: etruscan_cameo
   short: Etruscan Cameo
   img: etruscan_cameo.png

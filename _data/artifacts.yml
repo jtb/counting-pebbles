@@ -1,20 +1,224 @@
 - id: salamis
-  name: Salamis Tablet
-  photo: salamis
+  name: Salamis
+  photo: salamis2
   region: Salamis Island
+  dimensions: 150 ×75 ×4.5 cm
   inscriptions:
     -   Χ𐅅Η𐅄Δ𐅃𐅂Ι𐅁𐅀Χ
     -   Χ𐅅Η𐅄Δ𐅃𐅂Ι𐅁𐅀Χ
     - Τ𐅆Χ𐅅Η𐅄Δ𐅃𐅂Ι𐅁𐅀Χ
+  hasSemicircles: true
+  hasXs: true
+  lines:
+    - number: 5
+      hasSC: true
+    - number: 11
+      hasSC: true
+      hasXs: true
+      hasVert: true
   details: >
-           150 × 75 × 4.5 cm<br>
-           11 lines, marks at 3,6,9<br>
-           5 lines
+           PLACEHOLDER
+
+- id: goritsaA
+  name: Goritsa A
+  photo: goritsaA
+  region: Goritsa
+  lines:
+    - number: 5
+      hasSC: true
+    - number: 11
+      hasXs: true
+  details: >
+           PLACEHOLDER
 
 - id: goritsaB
   name: Goritsa B
-  photo: goritsa
+  photo: goritsaB
   region: Goritsa
+  lines:
+    - number: 5
+      hasSC: true
+    - number: 11
+      hasXs: true
   details: >
            11 lines, marks at 3,6,9<br>
            5 lines
+
+- id: oropos_complete
+  name: Oropos, Complete
+  region: Amphiareion of Oropos
+  inscriptions:
+    - Χ𐅅Η𐅄Δ𐅃𐅂Ι𐅁TΧ
+  lines:
+    - number: 5
+      hasSC: true
+    - number: 11
+      hasSC: true
+      hasXs: true
+  details: >
+           PLACEHOLDER
+
+- id: oropos_amputated
+  name: Oropos, Amputated
+  photo: oropos_amputated
+  region: Amphiareion of Oropos
+  inscriptions:
+    - MΤ𐅆Χ𐅅Η𐅄Δ𐅃
+  lines:
+    - number: 4
+      broken: true
+      hasSC: true
+  details: >
+           PLACEHOLDER
+
+- id: oropos_broken
+  name: Oropos, Broken
+  region: Amphiareion of Oropos
+  lines:
+    - number: 2
+      broken: true
+  details: >
+           PLACEHOLDER
+
+- id: oropos_5_11_5_lines
+  name: Oropos, 5+11+5 Lines
+  photo: oropos_5_11_5
+  region: Amphiareion of Oropos
+  lines:
+    - number: 5
+    - number: 11
+    - number: 5
+  details: >
+           PLACEHOLDER
+
+- id: oropos_5_2_lines
+  name: Oropos, 5+2 Lines
+  photo: oropos_5_2
+  region: Amphiareion of Oropos
+  lines:
+    - number: 7
+      broken: true
+      hasSC: true
+  details: >
+           PLACEHOLDER
+
+- id: oropos_6_lines
+  name: Oropos, 6 Lines
+  photo: oropos_6
+  region: Amphiareion of Oropos
+  lines:
+    - number: 6
+      broken: true
+      hasXs: true
+      hasSC: true
+  details: >
+           PLACEHOLDER
+
+- id: corinth_I
+  name: Corinth I
+  region: Corinth
+  inscriptions:
+    - XHΔ
+  details: >
+           PLACEHOLDER
+
+- id: rhamnous
+  name: Rhamnous
+  region: Rhamnous
+  details: >
+           PLACEHOLDER
+
+- id: delos
+  name: Delos
+  region: Delos
+  details: >
+           PLACEHOLDER
+
+- id: delos_letoon_steps
+  name: Delos, Letoon steps
+  region: Delos
+  details: >
+           PLACEHOLDER
+
+- id: tamassos_I
+  name: Tamassos I
+  region: Tamassos
+  details: >
+           PLACEHOLDER
+
+- id: tamassos_II
+  name: Tamassos II
+  region: Tamassos
+  details: >
+           PLACEHOLDER
+
+- id: dhekelia
+  name: Dhekelia
+  region: Dhekelia
+  details: >
+           PLACEHOLDER
+
+- id: agios_andreas
+  name: Agios Andreas
+  region: Agios Andreas
+  details: >
+           PLACEHOLDER
+
+- id: epidauros_I
+  name: Epidauros I
+  region: Epidauros
+  inscriptions:
+    - ΑΡΚΕΣΙΛΑΟΣ ΛΥΣΑΝΔΡΟΣ ΑΝΕΘΕΤΑΝ
+    - ΑΡΚΕΣΙΛ[ΑΟΣ] ΛΥΣΑ[ΝΔΡΟ]Σ [Α]ΝΕ[Θ]ΕΤΑΝ
+    - MXH-OI
+  details: >
+           PLACEHOLDER
+
+- id: epidauros_II
+  name: Epidauros II
+  region: Epidauros
+  details: >
+           PLACEHOLDER
+
+- id: epidauros_III
+  name: Epidauros III
+  region: Epidauros
+  inscriptions:
+    - ΕΡΓΙΛΟΣ ΑΟΑΥΜΑΝΤΟ ΑΝΕΘΕΝ
+  details: >
+           PLACEHOLDER
+
+- id: aphaea
+  name: Aphaea
+  region: Temple of Aphaea, Aigina 
+  details: >
+           PLACEHOLDER
+
+- id: abdera
+  name: Abdera
+  region: Abdera, Thrace
+  details: >
+           PLACEHOLDER
+
+- id: eretria_5_lines
+  name: Eretria, 5 Lines
+  region: Eretria
+  details: >
+           PLACEHOLDER
+
+- id: eretria_I
+  name: Eretria I
+  region: Eretria
+  details: >
+           PLACEHOLDER
+
+- id: eretria_II
+  name: Eretria II
+  region: Eretria
+  inscriptions:
+    - TΧ𐅅Η𐅄Δ𐅃𐅂Ι𐅁TΧ
+  details: >
+           PLACEHOLDER
+
+
+
