@@ -18,8 +18,8 @@ title: Lined Tablets
 {% for artifact in site.data.artifacts %}
 {% assign photo = site.data.images | where:"id", artifact.photo  | first %}
     <tr>
-      <td><a href="{{site.baseurl}}/assets/img/Scharlig/{{photo.img}}" data-lightbox="{{artifact.id}}" data-title="{{artifact.name}}">
-            <img src="{{site.baseurl}}/assets/img/Scharlig/{{photo.img}}" alt="{{artifact.name}}" width="100">
+      <td><a href="{{site.baseurl}}/assets/img/thumbs/{{photo.img}}" data-lightbox="{{artifact.id}}" data-title="{{artifact.name}}">
+            <img src="{{site.baseurl}}/assets/img/thumbs/{{photo.img}}" alt="{{artifact.name}}" width="100">
       </a></td>
       <td>{{artifact.name}}</td>
       <td>

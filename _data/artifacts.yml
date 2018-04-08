@@ -116,6 +116,7 @@
 
 - id: corinth_I
   name: Corinth I
+  photo: corinth_I
   region: Corinth
   inscriptions:
     - XHΔ
@@ -124,6 +125,7 @@
 
 - id: rhamnous
   name: Rhamnous
+  photo: rhamnous
   region: Rhamnous
   details: >
            PLACEHOLDER
@@ -190,12 +192,14 @@
 
 - id: aphaea
   name: Aphaea
+  photo: aphaea
   region: Temple of Aphaea, Aigina 
   details: >
            PLACEHOLDER
 
 - id: abdera
   name: Abdera
+  photo: abdera
   region: Abdera, Thrace
   details: >
            PLACEHOLDER
@@ -208,17 +212,29 @@
 
 - id: eretria_I
   name: Eretria I
+  photo: eretria_I
   region: Eretria
   details: >
            PLACEHOLDER
 
 - id: eretria_II
   name: Eretria II
+  photo: eretria_II
   region: Eretria
   inscriptions:
     - TΧ𐅅Η𐅄Δ𐅃𐅂Ι𐅁TΧ
   details: >
            PLACEHOLDER
 
-
-
+- id: delphi
+  name: Delphi
+  photo: delphes1b
+  region: Temple of Apollo at Delphi
+  lines:
+    - number: 5
+      hasSC: true
+    - number: 1
+      broken: true
+      hasSC: true
+  details: >
+           PLACEHOLDER

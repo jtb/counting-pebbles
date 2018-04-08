@@ -21,12 +21,12 @@
 
 - id: goritsaA
   short: Goritsa A
-  img: goritsaA.jpg
+  img: GoritsaA.png
   caption: Sketch of Goritsa A
 
 - id: goritsaB
   short: Goritsa B
-  img: goritsaB.jpg
+  img: GoritsaB.png
   caption: Sketch of Goritsa B
 
 - id: oropos_amputated
@@ -36,7 +36,7 @@
 
 - id: oropos_5_11_5
   short: Oropos, 5+11+5
-  img: oropos.jpg
+  img: Oropos_5_11_5.png
   caption: Sketch
 
 - id: oropos_5_2
@@ -69,3 +69,35 @@
   page: plate 342
   note: >
         L'abacus b
+
+- id: delphes1b
+  short: Delphi
+  img: delphes1b.jpg
+
+- id: corinth_I
+  short: Corinth I
+  img: Corinthe_I.png
+
+- id: corinth_II
+  short: Corinth II
+  img: Corinthe_II.png
+
+- id: eretria_I
+  short: Eretria I
+  img: Eretrie_I.png
+
+- id: eretria_II
+  short: Eretria II
+  img: Eretrie_II.png
+
+- id: abdera
+  short: Abdera
+  img: Abdere.png
+
+- id: aphaea
+  short: Aphaea
+  img: Aphaia.png
+
+- id: rhamnous
+  short: Rhamnous
+  img: Rhamonte.png
